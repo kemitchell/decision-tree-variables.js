@@ -1,0 +1,23 @@
+{
+  "name": "decision-tree-variables",
+  "description": "identify variables in a decision tree's conditions",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/decision-tree-variables.js.js",
+  "dependencies": {
+    "boolean-json-variables": "^2.0.3"
+  },
+  "devDependencies": {
+    "defence-cli": "^1.0.4",
+    "replace-require-self": "^1.0.1"
+  },
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
