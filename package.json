@@ -16,7 +16,7 @@
     "index.js"
   ],
   "license": "MIT",
-  "repository": "kemitchell/decision-tree-variables.js.js",
+  "repository": "kemitchell/decision-tree-variables.js",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
   }
